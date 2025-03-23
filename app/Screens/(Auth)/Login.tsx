@@ -97,7 +97,7 @@ export default function LoginScreen() {
 
       {/* Quên mật khẩu */}
       <TouchableOpacity
-        onPress={() => router.push("/Screens/(Auth)/ForgotPassword")}
+        onPress={() => router.push("/screens/(Auth)/ForgotPassword")}
       >
         <Text style={styles.forgotPassword}>Quên mật khẩu?</Text>
       </TouchableOpacity>
@@ -112,7 +112,7 @@ export default function LoginScreen() {
 
       {/* Đăng ký */}
       <TouchableOpacity
-        onPress={() => router.push("/Screens/(Auth)/Register")}
+        onPress={() => router.push("/screens/(Auth)/Register")}
       >
         <Text style={styles.registerText}>
           Bạn chưa có tài khoản?{" "}

@@ -8,7 +8,7 @@ const Header = () => {
       <Text style={styles.logo}>ElderCare</Text>
 
       <View style={styles.iconContainer}>
-        <TouchableOpacity style={styles.iconButton} onPress={() => router.push("/Screens/(Tabs)/Notification")}>
+        <TouchableOpacity style={styles.iconButton} onPress={() => router.push("/screens/(Tabs)/Notification")}>
           <FontAwesome name="bell" size={20} color="#28A745" />
         </TouchableOpacity>
         <TouchableOpacity style={styles.iconButton}>

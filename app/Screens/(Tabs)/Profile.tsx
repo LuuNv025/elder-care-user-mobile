@@ -40,7 +40,7 @@ export default function Profile() {
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <TouchableOpacity style={styles.menuItem}
-            onPress={() => (router.push("/Screens/(Tabs)/Notification"))}>
+            onPress={() => (router.push("/screens/(Tabs)/Notification"))}>
             <Ionicons name={item.icon as any} size={20} color="#333" />
             <Text style={styles.menuText}>{item.title}</Text>
             <Ionicons name="chevron-forward-outline" size={20} color="#ccc" />

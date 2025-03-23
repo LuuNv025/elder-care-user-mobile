@@ -7,7 +7,7 @@ const Stack = createStackNavigator();
 export default function Index() {
   return (
     <View>
-      <Link href="/Screens/OnBoarding/OnBoarding">Click Here</Link>
+      <Link href="/screens/(Tabs)/Home">Click Here</Link>
     </View>
   );
 }

@@ -53,7 +53,7 @@ const OnboardingScreen = () => {
               style={styles.button}
               onPress={() =>
                 index === slides.length - 1
-                  ? router.push("/Screens/(Auth)/Login")
+                  ? router.push("/screens/(Auth)/Login")
                   : swiperRef.current?.scrollBy(1)
               }
             >
